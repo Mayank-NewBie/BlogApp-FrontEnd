@@ -1,16 +1,167 @@
-# React + Vite
+🚀 Blog App
+A full-stack MERN Blog Application where users can create posts, like posts, and interact through comments.
+Built to practice:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Authentication 🔐
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+CRUD Operations 🛠️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+React Component Structure ⚛️
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+REST APIs 🌐
+
+
+Protected Routes 🚦
+
+
+
+✨ Features
+
+
+🔐 User Authentication
+
+
+📝 Create Posts
+
+
+🗑️ Delete Posts
+
+
+❤️ Like / Unlike Posts
+
+
+💬 Add Comments
+
+
+✏️ Edit Comments
+
+
+🧹 Delete Comments
+
+
+📄 Single Post Page
+
+
+🔔 Toast Notifications
+
+
+⚡ Responsive UI
+
+
+
+🛠️ Tech Stack
+Frontend
+
+
+React
+
+
+Vite
+
+
+React Router DOM
+
+
+Axios
+
+
+React Hot Toast
+
+
+Remix Icons
+
+
+Backend
+
+
+Node.js
+
+
+Express.js
+
+
+MongoDB
+
+
+Mongoose
+
+
+JWT Authentication
+
+
+
+📂 Project Structure
+src├── api├── components│   ├── post│   ├── Navbar.jsx│   ├── Commentbox.jsx│   └── CommentItem.jsx├── pages│   ├── FeedPage.jsx│   ├── LoginPage.jsx│   ├── RegisterPage.jsx│   └── SinglePostPage.jsx├── App.jsx└── main.jsx
+
+⚙️ Environment Variables
+Frontend .env
+VITE_API_URL=http://localhost:3000/api
+Backend .env
+PORT=3000MONGO_URI=your_mongodb_connectionJWT_SECRET=your_secret_key
+
+📥 Installation
+Clone Repository
+git clone YOUR_REPOSITORY_LINK
+
+💻 Frontend Setup
+cd frontendnpm installnpm run dev
+
+🖥️ Backend Setup
+cd backendnpm installnpm run dev
+
+📚 What I Learned
+
+
+React Hooks
+
+
+Component Reusability
+
+
+CRUD Operations
+
+
+Authentication Flow
+
+
+Protected Routes
+
+
+Axios API Handling
+
+
+ESLint Setup
+
+
+Better Folder Structure
+
+
+
+🚀 Future Improvements
+
+
+🔍 Search Feature
+
+
+🔖 Bookmark Posts
+
+
+👤 User Profiles
+
+
+🌙 Dark Mode
+
+
+🖼️ Image Upload
+
+
+🔷 TypeScript Migration
+
+
+
+👨‍💻 Author
+Made with ❤️ by Mayank
