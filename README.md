@@ -1,42 +1,75 @@
-🚀 Blog App
+# 🚀 Blog App
 
-A full-stack MERN Blog Application where users can create posts, like posts, and interact through comments.
+A full-stack **MERN Blog Application** where users can create posts, like posts, and interact through comments.
 
-Built to practice:
+---
 
-🔐 Authentication
-🛠️ CRUD Operations
-⚛️ React Component Structure
-🌐 REST APIs
-🚦 Protected Routes
-✨ Features
------------------------
-✅ User Authentication
-✅ Create Posts
-✅ Delete Posts
-✅ Like / Unlike Posts
-✅ Add Comments
-✅ Edit Comments
-✅ Delete Comments
-✅ Single Post Page
-✅ Toast Notifications
-✅ Responsive UI
-------------------
-🛠️ Tech Stack
-🎨 Frontend
-⚛️ React
-⚡ Vite
-🛣️ React Router DOM
-🌐 Axios
-🔔 React Hot Toast
-🎨 Remix Icons
------------------
-📚 What I Learned
---React Hooks
---Component Reusability
---CRUD Operations
---Authentication Flow
---Protected Routes
---Axios API Handling
---ESLint Setup
---Better Folder Structure
+## ✨ Features
+
+- 🔐 User Authentication
+- 📝 Create Posts
+- ❤️ Like / Unlike Posts
+- 💬 Add Comments
+- ✏️ Edit Comments
+- 🗑️ Delete Comments
+- 📄 Single Post View
+- 🚦 Protected Routes
+- 🔔 Toast Notifications
+- ⚡ Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+
+- ⚛️ React
+- ⚡ Vite
+- 🛣️ React Router DOM
+- 🌐 Axios
+- 🔔 React Hot Toast
+- 🎨 Remix Icons
+
+### ⚙️ Backend
+
+- 🟢 Node.js
+- 🚂 Express.js
+- 🍃 MongoDB
+- 🧩 Mongoose
+- 🔐 JWT Authentication
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src
+├── api
+│   └── axios.js
+│
+├── components
+│   ├── post
+│   ├── Navbar.jsx
+│   ├── Commentbox.jsx
+│   └── CommentItem.jsx
+│
+├── pages
+│   ├── FeedPage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   └── SinglePostPage.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+## 📚 What I Learned
+
+- ⚛️ React Hooks  
+- 🛠️ CRUD Operations  
+- 🔐 Authentication Flow  
+- 🚦 Protected Routes  
+- 🧩 Component Reusability  
+- 🌐 REST APIs  
+- 📡 Axios Instance Setup  
+- 🧹 ESLint Configuration  
+- 📂 Better Folder Structure  
